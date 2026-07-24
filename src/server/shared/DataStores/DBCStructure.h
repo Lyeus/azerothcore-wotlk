@@ -1917,7 +1917,7 @@ struct SummonPropertiesEntry
 
 #define MAX_TALENT_RANK 5
 #define MAX_PET_TALENT_RANK 3                               // use in calculations, expected <= MAX_TALENT_RANK
-#define MAX_TALENT_TABS 3
+#define MAX_TALENT_TABS 4                                   // Lyeus edit : Value was 3
 
 struct TalentEntry
 {

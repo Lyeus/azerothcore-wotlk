@@ -3245,10 +3245,20 @@ enum SkillType
     SKILL_PET_WASP                 = 785,
     SKILL_PET_EXOTIC_RHINO         = 786,
     SKILL_PET_EXOTIC_CORE_HOUND    = 787,
-    SKILL_PET_EXOTIC_SPIRIT_BEAST  = 788
+    SKILL_PET_EXOTIC_SPIRIT_BEAST  = 788,
+    SKILL_WARRIOR_EXTRA             = 1000,     //Added by Lyeus
+    SKILL_PALADIN_EXTRA             = 1001,     //Added by Lyeus
+    SKILL_HUNTER_EXTRA              = 1002,     //Added by Lyeus
+    SKILL_ROGUE_EXTRA               = 1003,     //Added by Lyeus
+    SKILL_PRIEST_EXTRA              = 1004,     //Added by Lyeus
+    SKILL_DK_EXTRA                  = 1005,     //Added by Lyeus
+    SKILL_SHAMAN_EXTRA              = 1006,     //Added by Lyeus
+    SKILL_MAGE_EXTRA                = 1007,     //Added by Lyeus
+    SKILL_WARLOCK_EXTRA             = 1008,     //Added by Lyeus
+    SKILL_DRUID_EXTRA               = 1010      //Added by Lyeus
 };
 
-#define MAX_SKILL_TYPE               789
+#define MAX_SKILL_TYPE               1011       //Modified by Lyeus. Value was 789
 
 inline SkillType SkillByLockType(LockType locktype)
 {
